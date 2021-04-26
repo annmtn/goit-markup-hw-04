@@ -113,6 +113,7 @@ img {
 }
 .logo-color.header {
   color: var(--accent-color);
+  border: none;
 }
 .nav-menu .link {
   color: var(--primary-text-color);
@@ -399,7 +400,7 @@ img {
 .social-icons-link:not(:last-child) {
  margin-right: 10px;
 }
-.social-icons-svg {
+.footer-social-icons .social-icons-svg {
   fill: var(--accent-text-color);  
 }
 
