@@ -184,7 +184,7 @@ img {
   content: "";
   width: 270px;
   height: 120px; 
-  background-color: #F5F4FA;
+  background-color: var(--accent-background-color);
   border-radius: 4px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
@@ -234,10 +234,7 @@ img {
 .team {
   background-color: var(--accent-background-color);
   text-align: center;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  }
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -439,15 +436,24 @@ img {
   border: none;
   padding: 6px 22px;
 }
+.filters-btn.all{
+  background-color: var(--accent-color);
+  color: var(--accent-text-color);
+}
 .filters-btn:hover,
 .filters-btn:focus {
   background-color: var(--accent-color);
   color: var(--accent-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* projects */
 .portfolio-item {
   flex-basis: calc((100% - 3 * 30px) / 3);
+}
+.portfolio-item:hover,
+.portfolio-item:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-subtitle {
   font-weight: 700;
